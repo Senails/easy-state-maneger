@@ -1,6 +1,9 @@
 ## Simple state meneger
 
-
+##### install
+```
+npm i easy-state-meneger
+```
 
 ##### example
 ```javascript
