@@ -1,6 +1,6 @@
 ## Simple state meneger
 
-##### install
+### Install
 ```
 npm i easy-state-meneger
 ```
@@ -13,7 +13,7 @@ npm i easy-state-meneger-react
 npm i easy-state-meneger-vue
 ```
 
-##### example
+### Example
 ```javascript
 import { CreateStore } from './index.js'
 
@@ -52,4 +52,62 @@ updateStore((store)=>{
 });
 
 // store.value3.val1 changed
+```
+
+### Example for React
+```ts
+import { createEasyStore } from "easy-state-meneger-react";
+
+const initState = {
+    count: 0
+}
+export const {useSelector, updateStore} = createEasyStore(initState);
+
+export function Action(){
+    updateStore((state)=>{
+        state.count++;
+    });
+}
+```
+
+```tsx
+import { Action, useSelector } from "./state";
+
+export function App() {
+    const count = useSelector((s)=>s.count);
+
+    return (
+        <div className="App">
+            <button onClick={Action}>{count}</button>
+        </div>
+    );
+}
+```
+
+#### Example for Vue
+```ts
+import { createEasyStore } from "easy-state-meneger-vue";
+
+const initState = {
+    count: 0
+}
+
+export const {useSelector, updateStore} = createEasyStore(initState);
+
+export function Action(){
+    updateStore((state)=>{
+        state.count++;
+    });
+}
+```
+```Vue
+<script setup lang="ts">
+    import { useSelector } from ".state";
+
+    const count = useSelector((s)=>s.count);
+
+</script>
+<template>
+    <button @click="Action">{{ count }}</button>
+</template>
 ```
