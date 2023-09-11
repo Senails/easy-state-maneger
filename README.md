@@ -1,14 +1,14 @@
 ## Simple state meneger for Vue
-##### Install
+##### install
 ```
 npm i easy-state-meneger-vue
 ```
-##### Install for React (https://github.com/Senails/easy-state-meneger/tree/React)
+##### install for react (https://github.com/Senails/easy-state-meneger/tree/React)
 ```
 npm i easy-state-meneger-react
 ```
 
-##### Example for vue
+##### example for vue
 ```ts  
 const initState = {
     count: 0
@@ -25,7 +25,7 @@ export function Action(){
 ```
 ```Vue
 <script setup lang="ts">
-import { useSelector } from ".state";
+    import { useSelector } from ".state";
 
     const count = useSelector((s)=>s.count);
 
