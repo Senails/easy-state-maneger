@@ -25,7 +25,7 @@ export function Action(){
 ```
 ```Vue
 <script setup lang="ts">
-import { Action, useSelector } from './Store';
+import { CreateStore } from "easy-state-meneger-vue";
 
     const count = useSelector((s)=>s.count);
 
