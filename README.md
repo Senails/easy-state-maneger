@@ -3,7 +3,7 @@
 ```
 npm i easy-state-meneger-vue
 ```
-##### Install React (https://github.com/Senails/easy-state-meneger/tree/React)
+##### Install for React (https://github.com/Senails/easy-state-meneger/tree/React)
 ```
 npm i easy-state-meneger-react
 ```
