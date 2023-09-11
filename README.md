@@ -1,4 +1,4 @@
-## Simple state meneger
+## Simple state meneger for Vue
 ##### Install
 ```
 npm i easy-state-meneger-vue
