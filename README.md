@@ -1,5 +1,13 @@
 ## Simple state meneger
 
+##### install for React
+```
+npm i easy-state-meneger-react
+```
+##### install for Vue
+```
+npm i easy-state-meneger-vue
+```
 ##### install
 ```
 npm i easy-state-meneger
