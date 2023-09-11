@@ -1,0 +1,16 @@
+{
+  "name": "easy-state-meneger",
+  "version": "1.0.0",
+  "description": "a simple state manager with minimal functionality",
+  "author": "Senails <seffele@gmail.com> (https://github.com/Senails)",
+  "homepage": "https://github.com/Senails/easy-state-meneger",
+  "bugs": {
+    "email": "seffele@gmail.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
