@@ -1,9 +1,9 @@
 {
   "name": "easy-state-meneger-vue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a simple state manager for Vue with minimal functionality",
   "author": "Senails <seffele@gmail.com> (https://github.com/Senails)",
-  "homepage": "https://github.com/Senails/easy-state-meneger/tree/vue",
+  "homepage": "https://github.com/Senails/easy-state-meneger/tree/Vue",
   "bugs": {
     "email": "seffele@gmail.com"
   },
