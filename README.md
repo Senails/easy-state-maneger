@@ -28,7 +28,7 @@ export function App() {
 const initState = {
     count: 0
 }
-export const {useSelector, updateStore} = CreateEasyStore(initState);
+export const {useSelector, updateStore} = createEasyStore(initState);
 
 export function Action(){
     updateStore((state)=>{
