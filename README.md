@@ -4,7 +4,7 @@
 ```
 npm i easy-state-meneger
 ```
-##### install for React
+##### install for React  https://github.com/Senails/easy-state-meneger/tree/React  
 ```
 npm i easy-state-meneger-react
 ```
