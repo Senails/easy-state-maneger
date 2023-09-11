@@ -1,15 +1,11 @@
 ## Simple state meneger
-##### install
+### Install
 ```
 npm i easy-state-meneger-react
 ```
-##### install for vue (https://github.com/Senails/easy-state-meneger/tree/Vue)
-```
-npm i easy-state-meneger-vue
-```
+##### State meneger for Vue (https://github.com/Senails/easy-state-meneger/tree/Vue)
 
-
-##### example for react
+### Example for React
 ```ts
 import { createEasyStore } from "easy-state-meneger-react";
 
