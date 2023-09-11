@@ -3,27 +3,13 @@
 ```
 npm i easy-state-meneger-react
 ```
-##### install for Vue (https://github.com/Senails/easy-state-meneger/tree/Vue)
+##### install for vue (https://github.com/Senails/easy-state-meneger/tree/Vue)
 ```
 npm i easy-state-meneger-vue
 ```
 
 
 ##### example for react
-```tsx
-import { Action, useSelector } from "./state";
-
-export function App() {
-    const count = useSelector((s)=>s.count);
-
-    return (
-        <div className="App">
-            <button onClick={Action}>{count}</button>
-        </div>
-    );
-}
-```
-
 ```ts
 import { createEasyStore } from "easy-state-meneger-react";
 
@@ -38,4 +24,18 @@ export function Action(){
         return state;
     });
 }
-```  
+```
+
+```tsx
+import { Action, useSelector } from "./state";
+
+export function App() {
+    const count = useSelector((s)=>s.count);
+
+    return (
+        <div className="App">
+            <button onClick={Action}>{count}</button>
+        </div>
+    );
+}
+```
