@@ -1,11 +1,11 @@
 ## Simple state meneger for Vue
-##### install
+#### install
 ```
 npm i easy-state-meneger-vue
 ```
 ##### state meneger for react (https://github.com/Senails/easy-state-meneger/tree/React)
 
-##### example for vue
+#### example for vue
 ```ts  
 const initState = {
     count: 0
