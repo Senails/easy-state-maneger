@@ -1,6 +1,6 @@
 {
   "name": "easy-state-meneger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple state manager with minimal functionality",
   "author": "Senails <seffele@gmail.com> (https://github.com/Senails)",
   "homepage": "https://github.com/Senails/easy-state-meneger",
@@ -8,9 +8,11 @@
     "email": "seffele@gmail.com"
   },
   "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
-  "keywords": [],
+  "keywords": ["easy state meneger","simple state meneger"],
   "license": "ISC"
 }
