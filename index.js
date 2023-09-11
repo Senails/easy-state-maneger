@@ -7,12 +7,12 @@ export function createEasyStore(initialStore){
 
     return {
         useSelector(selectorCallback){
-            const retrt = ref(false);
-            const forceRender = ()=>{retrt.value = !retrt.value;};
+            const reff = ref(false);
+            const forceRender = ()=>{reff.value = !reff.value;};
             const { unSubscribe, getStore } = subscribe(selectorCallback, forceRender);
             onUnmounted(()=>{unSubscribe()});
         
-            return computed<T>(()=>retrt.value?getStore(selectorCallback):getStore(selectorCallback));
+            return computed(()=>reff.value?getStore(selectorCallback):getStore(selectorCallback));
         },
         subscribe,
         updateStore,
