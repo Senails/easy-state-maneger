@@ -11,7 +11,7 @@ npm i easy-state-meneger-vue
 
 ##### example for react
 ```tsx
-import { Action, useSelector } from "./State";
+import { Action, useSelector } from "./state";
 
 export function App() {
     const count = useSelector((s)=>s.count);
@@ -25,6 +25,8 @@ export function App() {
 ```
 
 ```ts
+import { createEasyStore } from "easy-state-meneger-react";
+
 const initState = {
     count: 0
 }
