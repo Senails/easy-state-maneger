@@ -4,11 +4,11 @@
 ```
 npm i easy-state-meneger
 ```
-##### install for React  https://github.com/Senails/easy-state-meneger/tree/React  
+##### install for React  (https://github.com/Senails/easy-state-meneger/tree/React)
 ```
 npm i easy-state-meneger-react
 ```
-##### install for Vue
+##### install for Vue (https://github.com/Senails/easy-state-meneger/tree/Vue)
 ```
 npm i easy-state-meneger-vue
 ```
