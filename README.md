@@ -17,7 +17,6 @@ export const {useSelector, updateStore} = createEasyStore(initState);
 export function Action(){
     updateStore((state)=>{
         state.count++;
-        return state;
     });
 }
 ```
