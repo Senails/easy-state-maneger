@@ -5,8 +5,10 @@ npm i easy-state-meneger-vue
 ```
 ##### State meneger for React (https://github.com/Senails/easy-state-meneger/tree/React)
 
-### Example for vue
-```ts  
+### Example for Vue
+```ts
+import { createEasyStore } from "easy-state-meneger-vue";
+
 const initState = {
     count: 0
 }
