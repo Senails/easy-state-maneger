@@ -3,7 +3,7 @@
 ```
 npm i easy-state-meneger-vue
 ```
-##### State meneger for react (https://github.com/Senails/easy-state-meneger/tree/React)
+##### State meneger for React (https://github.com/Senails/easy-state-meneger/tree/React)
 
 ### Example for vue
 ```ts  
