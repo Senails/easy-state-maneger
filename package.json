@@ -19,7 +19,7 @@
   ],
   "license": "ISC",
   "dependencies": {
-    "easy-state-maneger": "^2.0.1",
+    "easy-state-maneger": "^1.0.0",
     "vue": "^3.3.4"
   }
 }
