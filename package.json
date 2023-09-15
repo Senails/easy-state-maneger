@@ -1,9 +1,9 @@
 {
-  "name": "easy-state-meneger-react",
+  "name": "easy-state-maneger-react",
   "version": "1.0.2",
   "description": "a simple state manager for React with minimal functionality",
   "author": "Senails <seffele@gmail.com> (https://github.com/Senails)",
-  "homepage": "https://github.com/Senails/easy-state-meneger/tree/React",
+  "homepage": "https://github.com/Senails/easy-state-maneger/tree/React",
   "bugs": {
     "email": "seffele@gmail.com"
   },
@@ -13,10 +13,10 @@
   "scripts": {
     "test": ""
   },
-  "keywords": ["easy state meneger","simple state meneger"],
+  "keywords": ["easy state maneger","simple state maneger"],
   "license": "ISC",
   "dependencies": {
-    "easy-state-meneger": "^2.0.1",
+    "easy-state-maneger": "^2.0.1",
     "react": "^18.2.0"
   }
 }

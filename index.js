@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { CreateStore } from "easy-state-meneger";
+import { CreateStore } from "easy-state-maneger";
 
 export function createEasyStore(initialStore){
     const {subscribe, updateStore, getStore} = CreateStore(initialStore);
