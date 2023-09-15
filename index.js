@@ -1,5 +1,5 @@
 import { computed, onUnmounted, ref } from "vue";
-import { CreateStore } from "easy-state-meneger";
+import { CreateStore } from "easy-state-maneger";
 
 
 export function createEasyStore(initialStore){
