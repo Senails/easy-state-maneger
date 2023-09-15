@@ -1,16 +1,16 @@
-## Simple state meneger
+## Simple state maneger
 
 ### Install
 ```
-npm i easy-state-meneger
+npm i easy-state-maneger
 ```
-##### install for React  (https://github.com/Senails/easy-state-meneger/tree/React)
+##### install for React  (https://github.com/Senails/easy-state-maneger/tree/React)
 ```
-npm i easy-state-meneger-react
+npm i easy-state-maneger-react
 ```
-##### install for Vue (https://github.com/Senails/easy-state-meneger/tree/Vue)
+##### install for Vue (https://github.com/Senails/easy-state-maneger/tree/Vue)
 ```
-npm i easy-state-meneger-vue
+npm i easy-state-maneger-vue
 ```
 
 ### Example
@@ -56,7 +56,7 @@ updateStore((store)=>{
 
 ### Example for React
 ```ts
-import { createEasyStore } from "easy-state-meneger-react";
+import { createEasyStore } from "easy-state-maneger-react";
 
 const initState = {
     count: 0
@@ -86,7 +86,7 @@ export function App() {
 
 #### Example for Vue
 ```ts
-import { createEasyStore } from "easy-state-meneger-vue";
+import { createEasyStore } from "easy-state-maneger-vue";
 
 const initState = {
     count: 0
